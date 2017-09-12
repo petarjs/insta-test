@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Insta Airfield</title>
+  <style>
+    .app {
+      display: flex;
+    }
+
+    .airfields-container {
+      flex: 1;
+    }
+
+    .airfield-info {
+      flex: 2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Insta Airfield</h1>
+  <div class="app">
+    <div class="airfields-container">
+        <div class="airfields"></div>
+        <div class="pagination">
+          <button class="pagination__back">Back</button>
+          <button class="pagination__forward">Forward</button>
+        </div>
+    </div>
+    <div class="airfield-info"></div>
+  </div>
+  <script src="./src/instarest/index.js"></script>
+  <script src="./src/index.js"></script>
+</body>
+</html>
